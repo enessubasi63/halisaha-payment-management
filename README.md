@@ -61,7 +61,7 @@ The **Halisaha Payment Management System** is a sophisticated web-based platform
 
 Experience the **Halisaha Payment Management System** firsthand through our live demo. This environment allows you to navigate the application's features, manage reservations, and process payments without the need for a local setup.
 
-- **Demo URL:** [https://halisaha.enessubasi.com.tr/](https://halisaha.enessubasi.com.tr/)
+- **Demo URL:** [https://halisaha.enessubasi.com.tr/]
 - **Username:** `admin`
 - **Password:** `123456`
 
