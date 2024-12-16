@@ -377,14 +377,6 @@ Please adhere to the [Code of Conduct](CODE_OF_CONDUCT.md) in all your interacti
 
 This project is licensed under the [MIT License](LICENSE.md). You are free to use, modify, and distribute this software as long as you include the original license and copyright.
 
-## Contact
-
-For any inquiries, suggestions, or support, please reach out to us:
-
-- **Project Lead:** John Doe
-- **Email:** johndoe@example.com
-- **LinkedIn:** [linkedin.com/in/johndoe](https://www.linkedin.com/in/johndoe/)
-- **Twitter:** [@johndoe](https://twitter.com/johndoe)
 
 ## Acknowledgements
 
