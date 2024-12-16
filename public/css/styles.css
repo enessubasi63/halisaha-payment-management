@@ -1,0 +1,181 @@
+/* public/css/styles.css */
+
+/* Genel Renk Paleti */
+:root {
+    --primary-color: #007bff;    /* Mavi ton */
+    --secondary-color: #6c757d;  /* Gri ton */
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+    --hover-color: #0056b3;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+}
+
+/* Body Genel Ayarlar */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Genel Başlıklar */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: var(--dark-color);
+}
+
+/* Navbar İçin Özelleştirmeler */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    margin-left: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--hover-color);
+}
+
+.navbar-nav .nav-link.text-danger {
+    color: #dc3545 !important;
+}
+
+.navbar-nav .nav-link.text-danger:hover {
+    color: #bd2130 !important;
+}
+
+/* İçerik Alanı */
+.container-fluid, .container {
+    padding: 1rem;
+}
+
+/* Butonlar */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--hover-color);
+    border-color: var(--hover-color);
+}
+
+.btn-success {
+    background-color: var(--success-color);
+    border-color: var(--success-color);
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-danger {
+    background-color: var(--danger-color);
+    border-color: var(--danger-color);
+}
+
+.btn-danger:hover {
+    background-color: #bd2130;
+    border-color: #b21f2d;
+}
+
+.btn-warning {
+    background-color: var(--warning-color);
+    border-color: var(--warning-color);
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.btn-info {
+    background-color: var(--info-color);
+    border-color: var(--info-color);
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.btn-primary, .btn-success, .btn-danger, .btn-warning, .btn-info, .btn-secondary {
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Form Elemanları */
+input[type="text"], input[type="tel"], input[type="password"], input[type="date"], input[type="number"], select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+/* Responsive Ayarlar */
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        margin-left: 0;
+        margin-bottom: 0.5rem;
+    }
+    .container-fluid, .container {
+        padding: 0.5rem;
+    }
+}
+
+/* İyi Bir Kullanıcı Deneyimi İçin Hover Efektleri */
+.form-control:hover, .form-select:hover {
+    border-color: var(--hover-color);
+}
+
+/* Alert Mesajları */
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.alert-warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.alert-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+/* Tablo İyileştirmeleri */
+table th, table td {
+    vertical-align: middle !important;
+}
