@@ -157,7 +157,7 @@ Experience the **Halisaha Payment Management System** firsthand through our live
 2. **Import the Database Schema:**
 
    ```bash
-   mysql -u enessubasi63 -p halisaha_db < database/schema.sql
+   mysql -u yourusername -p halisaha_db < database/schema.sql
    ```
 
 3. **Update Configuration Files:**
@@ -171,7 +171,7 @@ Experience the **Halisaha Payment Management System** firsthand through our live
    return [
        'host' => 'localhost',
        'dbname' => 'halisaha_db',
-       'user' => 'enessubasi63',
+       'user' => 'yourusername',
        'password' => 'yourpassword',
        'charset' => 'utf8mb4',
    ];
@@ -209,7 +209,7 @@ The database consists of the following primary tables:
 Ensure you have the SQL scripts ready to set up the necessary tables and relationships. Execute the following command to import the schema:
 
 ```bash
-mysql -u enessubasi63 -p halisaha_db < database/schema.sql
+mysql -u yourusername -p halisaha_db < database/schema.sql
 ```
 
 ### Sample Data
@@ -217,7 +217,7 @@ mysql -u enessubasi63 -p halisaha_db < database/schema.sql
 Populate the database with sample data for testing purposes.
 
 ```bash
-mysql -u enessubasi63 -p halisaha_db < database/sample_data.sql
+mysql -u yourusername -p halisaha_db < database/sample_data.sql
 ```
 
 ## Usage
