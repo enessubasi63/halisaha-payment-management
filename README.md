@@ -1,5 +1,5 @@
 ```markdown
-# Halisaha Payment Management System
+# football Payment Management System
 
 
 ## Table of Contents
@@ -21,7 +21,7 @@
 
 ## Introduction
 
-The **Halisaha Payment Management System** is a sophisticated web-based platform meticulously crafted to streamline the management of reservations and payments for sports facilities, specifically catering to soccer fields (Halisaha). This system integrates advanced functionalities to facilitate efficient handling of bookings, precise tracking of financial transactions, and an intuitive interface designed for both administrators and end-users. Leveraging robust technologies such as PHP, MySQL, and Bootstrap, the application ensures reliability, scalability, and a seamless user experience across a multitude of devices.
+The **football Payment Management System** is a sophisticated web-based platform meticulously crafted to streamline the management of reservations and payments for sports facilities, specifically catering to soccer fields (football). This system integrates advanced functionalities to facilitate efficient handling of bookings, precise tracking of financial transactions, and an intuitive interface designed for both administrators and end-users. Leveraging robust technologies such as PHP, MySQL, and Bootstrap, the application ensures reliability, scalability, and a seamless user experience across a multitude of devices.
 
 ## Features
 
@@ -59,9 +59,9 @@ The **Halisaha Payment Management System** is a sophisticated web-based platform
 
 ## Live Demo
 
-Experience the **Halisaha Payment Management System** firsthand through our live demo. This environment allows you to navigate the application's features, manage reservations, and process payments without the need for a local setup.
+Experience the **football Payment Management System** firsthand through our live demo. This environment allows you to navigate the application's features, manage reservations, and process payments without the need for a local setup.
 
-- **Demo URL:** [https://halisaha.enessubasi.com.tr/]
+- **Demo URL:** [https://football.enessubasi.com.tr/]
 - **Username:** `admin`
 - **Password:** `123456`
 
@@ -97,7 +97,7 @@ Experience the **Halisaha Payment Management System** firsthand through our live
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/halisaha-payment-management.git
+   git clone https://github.com/yourusername/football-payment-management.git
 
 ```
 ### Steps
@@ -105,13 +105,13 @@ Experience the **Halisaha Payment Management System** firsthand through our live
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/enessubasi63/halisaha-payment-management.git
+   git clone https://github.com/enessubasi63/football-payment-management.git
    ```
 
 2. **Navigate to the Project Directory:**
 
    ```bash
-   cd halisaha-payment-management
+   cd football-payment-management
    ```
 
 3. **Install Dependencies:**
@@ -151,13 +151,13 @@ Experience the **Halisaha Payment Management System** firsthand through our live
 1. **Create a Database:**
 
    ```sql
-   CREATE DATABASE halisaha_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+   CREATE DATABASE football_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
    ```
 
 2. **Import the Database Schema:**
 
    ```bash
-   mysql -u yourusername -p halisaha_db < database/schema.sql
+   mysql -u yourusername -p football_db < database/schema.sql
    ```
 
 3. **Update Configuration Files:**
@@ -170,7 +170,7 @@ Experience the **Halisaha Payment Management System** firsthand through our live
 
    return [
        'host' => 'localhost',
-       'dbname' => 'halisaha_db',
+       'dbname' => 'football_db',
        'user' => 'yourusername',
        'password' => 'yourpassword',
        'charset' => 'utf8mb4',
@@ -188,7 +188,7 @@ MAIL_PORT=2525
 MAIL_USERNAME=your_username
 MAIL_PASSWORD=your_password
 MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS=example@halisaha.com
+MAIL_FROM_ADDRESS=example@football.com
 MAIL_FROM_NAME="${APP_NAME}"
 ```
 
@@ -209,7 +209,7 @@ The database consists of the following primary tables:
 Ensure you have the SQL scripts ready to set up the necessary tables and relationships. Execute the following command to import the schema:
 
 ```bash
-mysql -u yourusername -p halisaha_db < database/schema.sql
+mysql -u yourusername -p football_db < database/schema.sql
 ```
 
 ### Sample Data
@@ -217,7 +217,7 @@ mysql -u yourusername -p halisaha_db < database/schema.sql
 Populate the database with sample data for testing purposes.
 
 ```bash
-mysql -u yourusername -p halisaha_db < database/sample_data.sql
+mysql -u yourusername -p football_db < database/sample_data.sql
 ```
 
 ## Usage
@@ -230,7 +230,7 @@ mysql -u yourusername -p halisaha_db < database/sample_data.sql
 
 2. **Navigate to the Application URL:**
 
-   Open your browser and go to `http://localhost/halisaha-payment-management`.
+   Open your browser and go to `http://localhost/football-payment-management`.
 
 ### User Workflow
 
@@ -268,11 +268,11 @@ mysql -u yourusername -p halisaha_db < database/sample_data.sql
 
 ### Dashboard
 
-![Dashboard](https://halisaha.enessubasi.com.tr/ss/dashboard.png)
+![Dashboard](https://football.enessubasi.com.tr/ss/dashboard.png)
 
 ### Reservation Form
 
-![Reservation Form](https://halisaha.enessubasi.com.tr/ss/path-to-reservation-form-screenshot.png)
+![Reservation Form](https://football.enessubasi.com.tr/ss/path-to-reservation-form-screenshot.png)
 
 
 ## API Documentation
@@ -342,7 +342,7 @@ Click the "Fork" button at the top-right corner of the repository page to create
 ### **2. Clone the Forked Repository**
 
 ```bash
-git clone https://github.com/enessubasi63/halisaha-payment-management.git
+git clone https://github.com/enessubasi63/football-payment-management.git
 ```
 
 ### **3. Create a Feature Branch**
